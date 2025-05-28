@@ -1,0 +1,26 @@
+.herosection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 100px 200px;
+}
+
+.herosectionleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.herosectionboldtext {
+  font-size: 80px;
+  font-weight: 700;
+  color: #30fbef;
+}
+
+.herosectionimage {
+  width: 431px;
+  height: 486px;
+}

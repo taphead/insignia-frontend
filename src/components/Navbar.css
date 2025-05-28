@@ -1,0 +1,45 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+.insignia-circle {
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-right span {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.navbar-right span:hover {
+  color: #30fbef;
+  cursor: pointer;
+}
+
+.requestbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
