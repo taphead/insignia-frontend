@@ -1,7 +1,5 @@
 .sectioncontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   margin: 100px;
   width: 1117;
   height: 560;

@@ -1,0 +1,24 @@
+.featuressection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.featuressectionboldtext {
+  width: 405;
+  height: 52;
+  top: 1731px;
+  font-family: Now;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #30fbef;
+}
+
+.featurecardcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
