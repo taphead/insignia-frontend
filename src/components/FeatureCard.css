@@ -1,7 +1,12 @@
 .featurecard {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  width: 25%;
+  border-radius: 50px;
+  box-shadow: -9px -9px 10px 0px #4b5d681a;
+  box-shadow: 9px 9px 10px 0px #00000040;
+  background: #212121;
+  padding: 20px;
 }
 
 .featurecardimage {
