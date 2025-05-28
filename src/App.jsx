@@ -1,16 +1,18 @@
 import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import PurpleArrow from "./components/PurpleArrow";
 import HeroSection from "./components/HeroSection";
+import SectionContainer from "./components/SectionContainer";
+import AboutSection from "./components/AboutSection";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Navbar />
       <HeroSection />
+      <SectionContainer>
+        <AboutSection />
+      </SectionContainer>
     </>
   );
 }

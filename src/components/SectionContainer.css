@@ -1,0 +1,19 @@
+.sectioncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  width: 1117;
+  height: 560;
+  top: 918px;
+  left: 240px;
+  border-radius: 50px;
+  border-width: 2px;
+  background: radial-gradient(
+    ellipse 38.2% 50% at 50% 50%,
+    #2e3134 0%,
+    #292b2e 100%
+  );
+  border: 2px solid #272829;
+  box-shadow: 2px 2px 40px 0px #0000004d inset;
+}
