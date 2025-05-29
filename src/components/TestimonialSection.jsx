@@ -25,6 +25,10 @@ Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar ae
 Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla."
         />
       </div>
+      <div className="testimonialfooter">
+        <div>Footer</div>
+        <div>Right</div>
+      </div>
     </div>
   );
 }

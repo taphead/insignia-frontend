@@ -1,0 +1,70 @@
+.subscribesection {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+.subscribesectionleft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subscribesectionright {
+  height: 84px;
+  top: 4547px;
+  left: 750px;
+  border-radius: 50px;
+  border-width: 1px;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 1px solid #272829;
+  box-shadow: 2px 2px 25px 0px #0000004d inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.subscribeinputcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribeinput {
+  width: 400px;
+  height: 30px;
+  top: 4574px;
+  left: 784px;
+  padding-left: 30px;
+}
+
+.subscribebutton {
+  width: 150px;
+  height: 50px;
+  top: 4564px;
+  left: 1193px;
+  border-radius: 50px;
+  font-family: Now;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.subscribesectionboldtext {
+  width: 405;
+  height: 52;
+  top: 4537px;
+  left: 240px;
+  font-family: Now;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #30fbef;
+}
