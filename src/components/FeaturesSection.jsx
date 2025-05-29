@@ -26,7 +26,10 @@ export default function FeaturesSection() {
           />
         </div>
       </div>
-      <div className="featuressectionfooter">Footer</div>
+      <div className="featuressectionfooter">
+        <div>Circles</div>
+        <div>Arrows</div>
+      </div>
     </div>
   );
 }
