@@ -47,3 +47,18 @@
   top: 4010px;
   left: 403px;
 }
+
+.testimonialcardoccupation {
+  font-family: Now;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 1%;
+  vertical-align: middle;
+  color: #9c69e2;
+}
+
+.testimonialcardrating {
+  display: flex;
+  align-items: flex-start;
+}

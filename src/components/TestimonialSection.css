@@ -10,3 +10,13 @@
   justify-content: center;
   gap: 20px;
 }
+
+.testimonialboldtext {
+  font-family: Now;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #30fbef;
+}
