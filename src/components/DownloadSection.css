@@ -1,0 +1,37 @@
+.downloadsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 300px;
+  height: 500px;
+  margin-top: 100px;
+}
+
+.downloadsectionleft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+
+.downloadsectionboldtext {
+  font-family: Now;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #30fbef;
+}
+
+.downloadsectionmaintext {
+  font-family: Now;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.downloadsectionbutton {
+  color: #ffffff;
+}
