@@ -5,6 +5,8 @@ import SectionContainer from "./components/SectionContainer";
 import AboutSection from "./components/AboutSection";
 import FeaturesSection from "./components/FeaturesSection";
 import DownloadSection from "./components/DownloadSection";
+import TestimonialCard from "./components/TestimonialCard";
+import TestimonialSection from "./components/TestimonialSection";
 
 function App() {
   return (
@@ -17,8 +19,11 @@ function App() {
       <SectionContainer>
         <FeaturesSection />
       </SectionContainer>
-      <SectionContainer className="downloadsectioncontainer">
+      <SectionContainer>
         <DownloadSection />
+      </SectionContainer>
+      <SectionContainer>
+        <TestimonialSection />
       </SectionContainer>
     </>
   );

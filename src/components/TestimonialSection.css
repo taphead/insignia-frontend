@@ -1,0 +1,12 @@
+.testimonialsection {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 30px;
+}
+
+.testimonialcardcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
