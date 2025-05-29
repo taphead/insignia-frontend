@@ -1,0 +1,53 @@
+.trialsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+}
+
+.trialsectionleft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.trialsectionright {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.trialsectionlearnbutton {
+  width: 190px;
+  height: 60px;
+  top: 4805px;
+  left: 937px;
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+.trialsectionrequestbutton {
+  width: 210px;
+  height: 60px;
+  top: 4805px;
+  left: 1147px;
+  border-radius: 50px;
+  color: #9c69e2;
+}
+
+.trialbuttontext {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.trialsectionboldtext {
+  font-family: Now;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #30fbef;
+}
