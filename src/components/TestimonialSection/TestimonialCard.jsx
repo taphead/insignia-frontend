@@ -1,6 +1,6 @@
 import "./TestimonialCard.css";
-import ratingfilled from "../assets/ratingfilled.png";
-import ratingempty from "../assets/ratingempty.png";
+import ratingfilled from "../..//assets/ratingfilled.png";
+import ratingempty from "../../assets/ratingempty.png";
 
 export default function TestimonialCard({
   avatar,
