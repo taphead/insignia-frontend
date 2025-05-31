@@ -35,26 +35,22 @@ export default function () {
       <div className="footercol2">
         <div className="footercol2-1">About</div>
         <div className="footercol2-2">
-          Profile
-          <br /> Features
-          <br /> Careers
-          <br /> DW
-          <br /> News
+          <div>Profile</div>
+          <div>Features</div>
+          <div>Careers</div>
+          <div>DW News</div>
+          <br />
         </div>
       </div>
 
       <div className="footercol3">
         <div className="footercol3-1">Help</div>
         <div className="footercol3-2">
-          Support
-          <br />
-          Sign up
-          <br />
-          Guide
-          <br />
-          Reports
-          <br />
-          Q&A
+          <div>Support</div>
+          <div>Sign up</div>
+          <div>Guide</div>
+          <div>Reports</div>
+          <div>QA</div>
         </div>
       </div>
 
