@@ -9,6 +9,7 @@ import TestimonialSection from "./components/TestimonialSection";
 import SubscribeSection from "./components/SubscribeSection";
 import TrialSection from "./components/TrialSection";
 import FooterSection from "./components/FooterSection";
+import Bottom from "./components/Bottom";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <SubscribeSection />
       <TrialSection />
       <FooterSection />
+      <Bottom />
     </>
   );
 }
