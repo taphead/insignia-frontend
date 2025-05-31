@@ -1,0 +1,10 @@
+.leftarrownormal {
+  display: flex;
+  align-items: center;
+}
+
+.leftarrowinverted {
+  display: flex;
+  align-items: center;
+  transform: scaleX(-1);
+}

@@ -7,8 +7,6 @@
 }
 
 .featuressectionboldtext {
-  width: 405;
-  height: 52;
   top: 1731px;
   font-family: Now;
   font-weight: 700;
@@ -17,7 +15,7 @@
   letter-spacing: 0%;
   vertical-align: middle;
   color: #30fbef;
-  margin-left: 45px;
+  margin-left: 65px;
 }
 
 .featurecardcontainer {
@@ -27,9 +25,41 @@
   gap: 20px;
 }
 
+.featurecard {
+  padding-bottom: 50px;
+}
+
 .featuressectionfooter {
-  margin-left: 45px;
-  margin-top: 50px;
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.featuressectioncircles {
+  margin-left: 65px;
+  display: flex;
+  gap: 10px;
   justify-content: center;
+  align-items: center;
+}
+.featurespurplecirlce {
+  width: 10px;
+  height: 10px;
+  top: 2591px;
+  left: 333px;
+}
+
+.featureswhitecircle {
+  width: 5px;
+  height: 5px;
+  top: 2594px;
+  left: 353px;
+}
+
+.featuressectionarrrows {
+  margin-right: 50px;
+  display: flex;
+  gap: 15px;
 }
