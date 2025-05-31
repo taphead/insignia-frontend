@@ -8,6 +8,7 @@ import DownloadSection from "./components/DownloadSection";
 import TestimonialSection from "./components/TestimonialSection";
 import SubscribeSection from "./components/SubscribeSection";
 import TrialSection from "./components/TrialSection";
+import FooterSection from "./components/FooterSection";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       </SectionContainer>
       <SubscribeSection />
       <TrialSection />
+      <FooterSection />
     </>
   );
 }
