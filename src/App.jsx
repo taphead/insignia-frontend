@@ -7,7 +7,7 @@ import FeaturesSection from "./components/FeaturesSection";
 import DownloadSection from "./components/DownloadSection/DownloadSection";
 import TestimonialSection from "./components/TestimonialSection";
 import SubscribeSection from "./components/SubscribeSection";
-import TrialSection from "./components/TrialSection";
+import TrialSection from "./components/TrialSection/TrialSection";
 import FooterSection from "./components/FooterSection/FooterSection";
 import Bottom from "./components/Bottom";
 

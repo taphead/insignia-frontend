@@ -1,5 +1,5 @@
-import rightarrowpurple from "../assets/rightarrowpurple.png";
-import rigtarrowbarpurple from "../assets/rightarrowbarpurple.png";
+import rightarrowpurple from "../../assets/rightarrowpurple.png";
+import rigtarrowbarpurple from "../../assets/rightarrowbarpurple.png";
 import "./PurpleArrow.css";
 export default function PurpleArrow() {
   return (

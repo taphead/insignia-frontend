@@ -1,5 +1,5 @@
 import "./FeatureCard.css";
-import PurpleArrow from "./PurpleArrow";
+import PurpleArrow from "./PurpleArrow/PurpleArrow";
 
 export default function FeatureCard({ img, boldText, mainText }) {
   return (

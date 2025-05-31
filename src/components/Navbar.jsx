@@ -1,6 +1,6 @@
 import insigniacircle from "../assets/abstract-circle.png";
 import "./Navbar.css";
-import PurpleArrow from "./PurpleArrow";
+import PurpleArrow from "./PurpleArrow/PurpleArrow";
 export default function Navbar() {
   return (
     <div className="navbar-container">

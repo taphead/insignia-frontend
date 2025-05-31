@@ -1,5 +1,5 @@
 import "./TrialSection.css";
-import PurpleArrow from "./PurpleArrow";
+import PurpleArrow from "../PurpleArrow/PurpleArrow";
 
 export default function TrialSection() {
   return (
