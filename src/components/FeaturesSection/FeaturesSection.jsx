@@ -1,11 +1,11 @@
 import FeatureCard from "./FeatureCard";
 import "./FeaturesSection.css";
-import clipboard from "../assets/ClipboardText.png";
-import printer from "../assets/Printer.png";
-import shieldcheck from "../assets/ShieldCheck.png";
-import purplecircle from "../assets/purplecircle.png";
-import whitecircle from "../assets/whitecircle.png";
-import LeftArrow from "./LeftArrow";
+import clipboard from "../../assets/ClipboardText.png";
+import printer from "../../assets/Printer.png";
+import shieldcheck from "../../assets/ShieldCheck.png";
+import purplecircle from "../../assets/purplecircle.png";
+import whitecircle from "../../assets/whitecircle.png";
+import LeftArrow from "../LeftArrow/LeftArrow";
 export default function FeaturesSection() {
   return (
     <div className="featuressection">

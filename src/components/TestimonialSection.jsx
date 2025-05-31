@@ -4,7 +4,7 @@ import avatar1 from "../assets/john.png";
 import avatar2 from "../assets/jenny.png";
 import purplecircle from "../assets/purplecircle.png";
 import whitecircle from "../assets/whitecircle.png";
-import LeftArrow from "./LeftArrow";
+import LeftArrow from "./LeftArrow/LeftArrow";
 
 export default function TestimonialSection() {
   return (
