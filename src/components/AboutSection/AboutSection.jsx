@@ -1,5 +1,5 @@
 import "./AboutSection.css";
-import security from "../assets/security.png";
+import security from "../../assets/security.png";
 export default function AboutSection() {
   return (
     <div className="aboutsection">

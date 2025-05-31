@@ -1,5 +1,5 @@
 import "./DownloadSection.css";
-import phone from "../assets/Phone.png";
+import phone from "../../assets/Phone.png";
 export default function DownloadSection() {
   return (
     <div className="downloadsection">

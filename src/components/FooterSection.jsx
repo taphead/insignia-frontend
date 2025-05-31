@@ -59,13 +59,13 @@ export default function () {
           <div className="footercol4-1">Social Media</div>
           <div className="footercol4-2">
             <FooterLogoContainer>
-              <img src={facebooklogo} />
+              <img src={facebooklogo} className="socialmediaimage" />
             </FooterLogoContainer>
-            <FooterLogoContainer>
-              <img src={instagramlogo} />
-            </FooterLogoContainer>
-            <FooterLogoContainer>
+            <FooterLogoContainer className="socialmediaimage">
               <img src={twitterlogo} />
+            </FooterLogoContainer>
+            <FooterLogoContainer>
+              <img src={instagramlogo} className="socialmediaimage" />
             </FooterLogoContainer>
           </div>
         </div>
