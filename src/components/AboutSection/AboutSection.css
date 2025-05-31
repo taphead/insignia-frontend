@@ -7,8 +7,6 @@
 }
 
 .aboutsectionimage {
-  width: 399;
-  height: 312;
   top: 1041.82px;
   left: 302px;
   margin-left: 30px;
@@ -26,8 +24,6 @@
 }
 
 .aboutsectionboldtext {
-  width: 475;
-  height: 100;
   top: 1031.82px;
   left: 794px;
   font-family: Now;
@@ -40,8 +36,6 @@
 }
 
 .aboutsectionmaintext {
-  width: 474;
-  height: 170;
   top: 1171.82px;
   left: 794px;
   font-family: Now;
@@ -49,4 +43,10 @@
   font-size: 18px;
   line-height: 160%;
   letter-spacing: 0%;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutsection {
+    flex-direction: column;
+  }
 }

@@ -4,8 +4,6 @@
   align-items: center;
   gap: 50px;
   margin: 100px;
-  width: 1117;
-  height: 497;
   top: 257px;
   left: 240px;
 }
@@ -19,8 +17,6 @@
 }
 
 .herosectionboldtext {
-  width: 645;
-  height: 184;
   top: 316px;
   left: 240px;
   font-size: 80px;
@@ -35,8 +31,6 @@
 }
 
 .herosectionmaintext {
-  width: 523;
-  height: 120;
   top: 540px;
   left: 240px;
   font-family: Now;
@@ -47,8 +41,6 @@
 }
 
 .herosectionbutton {
-  width: 271;
-  height: 76;
   top: 678px;
   left: 240px;
   border-radius: 50px;
@@ -66,10 +58,14 @@
 }
 
 .herosectionimage {
-  width: 431;
-  height: 486;
   top: 257px;
   left: 926px;
   width: 431px;
   height: 486px;
+}
+
+@media (max-width: 768px) {
+  .herosection {
+    flex-direction: column;
+  }
 }
