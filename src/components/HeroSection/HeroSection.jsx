@@ -1,5 +1,5 @@
 import "./HeroSection.css";
-import cloudstoragepng from "../assets/Cloud_database.png";
+import cloudstoragepng from "../../assets/Cloud_database.png";
 export default function HeroSection() {
   return (
     <div className="herosection">

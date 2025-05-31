@@ -1,9 +1,9 @@
 import "./FooterSection.css";
-import insigniacircle from "../assets/abstract-circle.png";
-import FooterLogoContainer from "./FooterLogoContainer.jsx";
-import facebooklogo from "../assets/FacebookLogo.png";
-import instagramlogo from "../assets/InstagramLogo.png";
-import twitterlogo from "../assets/TwitterLogo.png";
+import insigniacircle from "../../assets/abstract-circle.png";
+import FooterLogoContainer from "./FooterLogoContainer";
+import facebooklogo from "../../assets/FacebookLogo.png";
+import instagramlogo from "../../assets/InstagramLogo.png";
+import twitterlogo from "../../assets/TwitterLogo.png";
 export default function () {
   return (
     <>

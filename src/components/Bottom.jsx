@@ -1,5 +1,5 @@
 import "./Bottom.css";
-import FooterLogoContainer from "./FooterLogoContainer";
+import FooterLogoContainer from "./FooterSection/FooterLogoContainer";
 import union from "../assets/Union.png";
 export default function Bottom() {
   return (
