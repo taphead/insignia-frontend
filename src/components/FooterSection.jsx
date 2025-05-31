@@ -72,57 +72,6 @@ export default function () {
           </FooterLogoContainer>
         </div>
       </div>
-      {/* <div className="footertoprow">
-        <div className="footertoprow1">
-          <img src={insigniacircle} className="insignia-circle" />
-          <span
-            style={{
-              width: "108px",
-              height: "33px",
-              color: "#30FBEF",
-              fontSize: "26px",
-              fontWeight: "700",
-            }}
-          >
-            Insignia
-          </span>
-        </div>
-        <div className="footertoprow2">
-          <span>About</span>
-        </div>
-        <div className="footertoprow3">
-          <span>Help</span>
-        </div>
-        <div className="footertoprow4">
-          <span>Social Media</span>
-        </div>
-      </div>
-
-      <div className="footermiddlerow">
-        <div className="footermiddlerow1">
-          <div>Insignia Society, 234</div>
-          <div>Bahagia Ave Street PRBW 29281</div>
-        </div>
-        <div className="footermiddlerow2">
-          <div>Profile</div>
-          <div>Features</div>
-        </div>
-        <div className="footermiddlerow3">
-          <div>Support</div>
-          <div>Sign Up</div>
-        </div>
-        <div className="footermiddlerow4">
-          <FooterLogoContainer>
-            <img src={facebooklogo} />
-          </FooterLogoContainer>
-          <FooterLogoContainer>
-            <img src={instagramlogo} />
-          </FooterLogoContainer>
-          <FooterLogoContainer>
-            <img src={twitterlogo} />
-          </FooterLogoContainer>
-        </div>
-      </div> */}
     </div>
   );
 }
