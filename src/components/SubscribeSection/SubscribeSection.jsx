@@ -15,6 +15,9 @@ export default function SubscribeSection() {
           <button className="subscribebutton">Join Us</button>
         </div>
       </div>
+      <div className="subscribemobilebutton">
+        <button className="mobilebutton">Join us</button>
+      </div>
     </div>
   );
 }
