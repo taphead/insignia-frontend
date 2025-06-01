@@ -15,3 +15,11 @@
   vertical-align: middle;
   color: #30fbef;
 }
+
+@media screen and (max-width: 768px) {
+  .bottom {
+    flex-direction: column;
+    margin: 50px;
+    gap: 20px;
+  }
+}

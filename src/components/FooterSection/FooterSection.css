@@ -30,7 +30,6 @@
   width: 177px;
   height: 60px;
   top: 67px;
-  left: 150px;
   gap: 10px;
 }
 
@@ -66,4 +65,23 @@
 .footercol3 div:hover,
 .footercol4 div:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .footercontainer {
+    flex-direction: column;
+    gap: 0px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footercol2,
+  .footercol3 {
+    margin-right: 150px;
+  }
+
+  .footercol4 {
+    margin-right: 10px;
+  }
 }
