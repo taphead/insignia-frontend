@@ -23,14 +23,14 @@ export default function TestimonialCard({
         <div className="testimonialcardmiddle">
           <div className="testimonialcardoccupation">{occupation}</div>
           <div className="testimonialcardrating">
-            {ratingArr.map((rating) => (
-              <span>
+            {ratingArr.map((rating, index) => (
+              <span key={index}>
                 <img src={ratingfilled} />
               </span>
             ))}
             {rating < 5 &&
-              remainderArr.map((r) => (
-                <span>
+              remainderArr.map((r, index) => (
+                <span key={index}>
                   <img src={ratingempty} />
                 </span>
               ))}

@@ -48,5 +48,14 @@
 @media screen and (max-width: 768px) {
   .aboutsection {
     flex-direction: column;
+    margin: 0px;
+  }
+  .aboutsectionimage {
+    width: 70%;
+  }
+
+  .aboutsectionright {
+    margin: 0px;
+    padding: 20px;
   }
 }

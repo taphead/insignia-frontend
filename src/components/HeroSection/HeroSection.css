@@ -68,4 +68,17 @@
   .herosection {
     flex-direction: column;
   }
+
+  .herosectionboldtext {
+    font-size: xx-large;
+  }
+
+  .herosectionbutton {
+    font-size: large;
+  }
+
+  .herosectionimage {
+    width: 100%;
+    height: 100%;
+  }
 }
