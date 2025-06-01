@@ -63,3 +63,17 @@
   align-items: flex-start;
   width: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .testimonialcard {
+    flex-direction: column;
+  }
+
+  .testimonialcardleft {
+    width: auto;
+  }
+
+  .testimonialcardrating {
+    display: none;
+  }
+}

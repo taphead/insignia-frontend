@@ -12,6 +12,7 @@ export default function TestimonialSection() {
       <div className="testimonialboldtext">Testimonial</div>
       <div className="testimonialcardcontainer">
         <TestimonialCard
+          id="testimonial--1"
           avatar={avatar1}
           name="John Fang"
           occupation="Web Designer"
@@ -19,14 +20,17 @@ export default function TestimonialSection() {
           text="Suspendisse ultrices at diam lectus nullam. 
 Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla."
         />
-        <TestimonialCard
-          avatar={avatar2}
-          name="Jenny Doe"
-          occupation="Ux Designer"
-          rating="5"
-          text="Suspendisse ultrices at diam lectus nullam. 
+        <div className="test2">
+          <TestimonialCard
+            id="testimonial--2"
+            avatar={avatar2}
+            name="Jenny Doe"
+            occupation="Ux Designer"
+            rating="5"
+            text="Suspendisse ultrices at diam lectus nullam. 
 Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla."
-        />
+          />
+        </div>
       </div>
       <div className="testimonialfooter">
         <div className="testimonialcircles">
