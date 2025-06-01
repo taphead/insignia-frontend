@@ -46,3 +46,35 @@
 .downloadsectionright {
   width: 61%;
 }
+
+@media screen and (max-width: 768px) {
+  .downloadsection {
+    display: flex;
+    flex-direction: column;
+  }
+  .downloadsectionboldtext {
+    margin: 20px;
+  }
+
+  .downloadsectionleft {
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .downloadsectionmaintext {
+    margin: 20px;
+    font-size: small;
+  }
+
+  .downloadsectionbutton {
+    font-size: large;
+    width: 80%;
+    margin: 20px;
+    margin-bottom: 80px;
+  }
+
+  .downloadsectionright {
+    display: none;
+  }
+}

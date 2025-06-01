@@ -90,3 +90,11 @@
     height: auto;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .featuressectionfooter {
+    gap: 25px;
+    margin: 0px;
+    padding: 0px;
+  }
+}

@@ -22,7 +22,7 @@ function App() {
       <SectionContainer>
         <FeaturesSection />
       </SectionContainer>
-      <SectionContainer>
+      <SectionContainer className="downloadsectioncontainer">
         <DownloadSection />
       </SectionContainer>
       <SectionContainer>

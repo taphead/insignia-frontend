@@ -54,15 +54,17 @@
     width: auto;
     height: auto;
     margin: 0px;
+    gap: 0px;
+    margin: 5px;
   }
   .featurecardimage {
-    width: 60%;
+    width: 80%;
     margin: 20px;
   }
 
   .featurecardboldtext,
   .featurecardmaintext {
-    margin: 20px;
+    margin: 10px;
   }
 
   .featurecardfooter {
