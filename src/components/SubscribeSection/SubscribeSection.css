@@ -71,6 +71,7 @@
   .subscribesection {
     flex-direction: column;
     gap: 20px;
+    margin: 0px;
   }
 
   .subscribesectionleft {

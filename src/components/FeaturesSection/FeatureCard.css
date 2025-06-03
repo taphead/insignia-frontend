@@ -51,23 +51,30 @@
 
 @media screen and (max-width: 768px) {
   .featurecard {
-    width: auto;
     height: auto;
     margin: 0px;
     gap: 0px;
-    margin: 5px;
+    padding: 0px;
   }
   .featurecardimage {
     width: 80%;
-    margin: 20px;
   }
 
   .featurecardboldtext,
+  .featurecardmaintext,
+  .featurecardfooter,
+  .featurecardimage {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .featurecardboldtext {
+    font-size: 16px;
+  }
   .featurecardmaintext {
-    margin: 10px;
+    font-size: 12px;
   }
 
   .featurecardfooter {
-    margin: 20px;
   }
 }

@@ -23,14 +23,14 @@ function App() {
         <SectionContainer>
           <FeaturesSection />
         </SectionContainer>
-        <SectionContainer className="downloadsectioncontainer">
+        {/* <SectionContainer className="downloadsectioncontainer">
           <DownloadSection />
-        </SectionContainer>
-        <SectionContainer>
+        </SectionContainer> */}
+        {/* <SectionContainer>
           <TestimonialSection />
-        </SectionContainer>
-        {/* <SubscribeSection /> */}
-        <TrialSection />
+        </SectionContainer> */}
+        <SubscribeSection />
+        {/* <TrialSection /> */}
         <FooterSection />
         <Bottom />
       </div>

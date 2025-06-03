@@ -44,7 +44,7 @@
   justify-content: center;
   align-items: center;
 }
-.featurespurplecirlce {
+.featurespurplecircle {
   width: 10px;
   height: 10px;
   top: 2591px;
@@ -65,12 +65,20 @@
 }
 
 @media screen and (max-width: 768px) {
-  .sectioncontainer {
-    width: 80%;
+  .sectioncontainer,
+  .featuressection,
+  .featuressectionboldtext,
+  .featurecardcontainer,
+  .featurecard,
+  .featuressectionfooter,
+  .featuressectioncircles,
+  .featurespurplecircle,
+  .featureswhitecircle,
+  .featuressectionarrrows {
     margin: 0px;
-    margin-left: 50px;
-    margin-bottom: 100px;
     padding: 0px;
+  }
+  .sectioncontainer {
   }
   .featurecardcontainer {
     flex-direction: column;
