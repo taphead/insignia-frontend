@@ -68,6 +68,16 @@
 }
 
 @media screen and (max-width: 768px) {
+  .subscribesection,
+  .subscribesectionleft,
+  .subscribesectionright,
+  .subscribesectionboldtext,
+  .subscribeinputcontainer,
+  .subscribeinput,
+  .subscribebutton {
+    margin: 0px;
+    padding: 0px;
+  }
   .subscribesection {
     flex-direction: column;
     gap: 20px;
@@ -88,6 +98,7 @@
 
   .subscribeinput {
     width: auto;
+    padding-top: 5px;
   }
 
   .subscribebutton {

@@ -26,9 +26,9 @@ function App() {
         <SectionContainer>
           <DownloadSection />
         </SectionContainer>
-        {/* <SectionContainer>
+        <SectionContainer>
           <TestimonialSection />
-        </SectionContainer> */}
+        </SectionContainer>
         <SubscribeSection />
         {/* <TrialSection /> */}
         <FooterSection />
