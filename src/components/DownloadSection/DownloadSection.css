@@ -51,15 +51,18 @@
   .downloadsection {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 150px;
   }
   .downloadsectionboldtext {
     margin: 20px;
   }
 
   .downloadsectionleft {
-    padding: 0px;
     justify-content: center;
     align-items: center;
+    padding-left: 150px;
   }
 
   .downloadsectionmaintext {

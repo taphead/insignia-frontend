@@ -11,7 +11,7 @@ export default function SubscribeSection() {
       </div>
       <div className="subscribesectionright">
         <div className="subscribeinputcontainer">
-          <div className="subscribeinput">Enter your e-mail address here</div>
+          <div className="subscribeinput">Enter your e-mail address </div>
           <button className="subscribebutton">Join Us</button>
         </div>
       </div>

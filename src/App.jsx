@@ -29,7 +29,7 @@ function App() {
         <SectionContainer>
           <TestimonialSection />
         </SectionContainer>
-        {/* <SubscribeSection /> */}
+        <SubscribeSection />
         <TrialSection />
         <FooterSection />
         <Bottom />
