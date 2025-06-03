@@ -23,9 +23,9 @@ function App() {
         <SectionContainer>
           <FeaturesSection />
         </SectionContainer>
-        {/* <SectionContainer className="downloadsectioncontainer">
+        <SectionContainer>
           <DownloadSection />
-        </SectionContainer> */}
+        </SectionContainer>
         {/* <SectionContainer>
           <TestimonialSection />
         </SectionContainer> */}

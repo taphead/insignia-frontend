@@ -18,9 +18,9 @@
   font-family: Now;
   font-weight: 700;
   font-size: 40px;
-  line-height: 130%;
+  /* line-height: 130%;
   letter-spacing: 0%;
-  vertical-align: middle;
+  vertical-align: middle; */
   color: #30fbef;
 }
 
@@ -48,33 +48,32 @@
 }
 
 @media screen and (max-width: 768px) {
-  .downloadsection {
-    display: flex;
-    flex-direction: column;
-  }
-  .downloadsectionboldtext {
-    margin: 20px;
+  .downloadsectionright {
+    display: none;
   }
 
-  .downloadsectionleft {
+  .downloadsection,
+  .downloadsectionleft,
+  .downloadsectionright,
+  .downloadsectionboldtext,
+  .downloadsectionbutton,
+  .downloadsectionimg,
+  .downloadsectionmaintext {
+    margin: 0px;
     padding: 0px;
-    justify-content: center;
-    align-items: center;
+    width: auto;
+    height: auto;
+  }
+
+  .downloadsectionboldtext {
+    padding: 20px 0 10px 20px;
   }
 
   .downloadsectionmaintext {
-    margin: 20px;
-    font-size: small;
+    padding: 0px 20px 20px 20px;
   }
 
   .downloadsectionbutton {
-    font-size: large;
-    width: 80%;
-    margin: 20px;
-    margin-bottom: 80px;
-  }
-
-  .downloadsectionright {
-    display: none;
+    margin: 0 20px 20px 20px;
   }
 }
