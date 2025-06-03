@@ -63,3 +63,9 @@
   box-shadow: -3px -3px 8px 0px #4b5d681a;
   box-shadow: 4px 3px 8px 0px #00000040;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar-right {
+    display: none;
+  }
+}

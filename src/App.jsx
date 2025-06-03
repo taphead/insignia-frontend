@@ -14,24 +14,26 @@ import Bottom from "./components/BottomSection/Bottom";
 function App() {
   return (
     <>
-      <Navbar />
-      <HeroSection />
-      <SectionContainer>
-        <AboutSection />
-      </SectionContainer>
-      <SectionContainer>
-        <FeaturesSection />
-      </SectionContainer>
-      <SectionContainer className="downloadsectioncontainer">
-        <DownloadSection />
-      </SectionContainer>
-      <SectionContainer>
-        <TestimonialSection />
-      </SectionContainer>
-      <SubscribeSection />
-      <TrialSection />
-      <FooterSection />
-      <Bottom />
+      <div className="maincontainer">
+        <Navbar />
+        <HeroSection />
+        <SectionContainer>
+          <AboutSection />
+        </SectionContainer>
+        <SectionContainer>
+          <FeaturesSection />
+        </SectionContainer>
+        <SectionContainer className="downloadsectioncontainer">
+          <DownloadSection />
+        </SectionContainer>
+        <SectionContainer>
+          <TestimonialSection />
+        </SectionContainer>
+        {/* <SubscribeSection /> */}
+        <TrialSection />
+        <FooterSection />
+        <Bottom />
+      </div>
     </>
   );
 }

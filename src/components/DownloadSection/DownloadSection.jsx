@@ -15,7 +15,7 @@ export default function DownloadSection() {
         <button className="downloadsectionbutton">Download</button>
       </div>
       <div className="downloadsectionright">
-        <img src={phone} />
+        <img src={phone} className="downloadsectionimg" />
       </div>
     </div>
   );

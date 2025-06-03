@@ -52,8 +52,6 @@
 }
 
 .subscribesectionboldtext {
-  width: 405;
-  height: 52;
   top: 4537px;
   left: 240px;
   font-family: Now;
@@ -72,8 +70,6 @@
 @media screen and (max-width: 768px) {
   .subscribesection {
     flex-direction: column;
-    margin: 20px;
-    margin-left: 50px;
     gap: 20px;
   }
 
@@ -87,12 +83,15 @@
   }
 
   .subscribeinputcontainer {
-    margin-top: 10px;
-    margin-left: 180px;
+  }
+
+  .subscribeinput {
+    width: auto;
   }
 
   .subscribebutton {
     display: none;
+    width: auto;
   }
 
   .mobilebutton {

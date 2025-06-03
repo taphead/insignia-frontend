@@ -43,8 +43,8 @@
   vertical-align: middle;
 }
 
-.downloadsectionright {
-  width: 61%;
+.downloadsectionimg {
+  position: relative;
 }
 
 @media screen and (max-width: 768px) {

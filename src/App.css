@@ -13,6 +13,15 @@ button {
     4px 3px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
+@media screen and (max-width: 768px) {
+  .maincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+}
 /* @media screen and (max-width: 768px) {
   .downloadsectioncontainer div {
     background-color: wheat;
