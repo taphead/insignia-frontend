@@ -65,24 +65,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .sectioncontainer,
-  .featuressection,
-  .featuressectionboldtext,
-  .featurecardcontainer,
-  .featurecard,
-  .featuressectionfooter,
-  .featuressectioncircles,
-  .featurespurplecircle,
-  .featureswhitecircle,
-  .featuressectionarrrows {
-    margin: 0px;
-    padding: 0px;
-  }
-  .sectioncontainer {
+  .featuressectionboldtext {
+    padding-top: 20px;
+    padding-left: 20px;
   }
   .featurecardcontainer {
     flex-direction: column;
-    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: auto;
     width: auto;
   }
@@ -100,9 +90,32 @@
 }
 
 @media screen and (max-width: 768px) {
+  .sectioncontainer,
+  .featuressection,
+  .featuressectionboldtext,
+  .featurecardcontainer,
+  .featurecard,
+  .featuressectionfooter,
+  .featuressectioncircles,
+  .featurespurplecircle,
+  .featureswhitecircle,
+  .featuressectionarrrows,
   .featuressectionfooter {
-    gap: 25px;
     margin: 0px;
     padding: 0px;
+  }
+
+  .featuressectionboldtext {
+    padding: 20px 0 5px 20px;
+  }
+
+  .featurecardcontainer {
+    padding: 0 20px 0 20px;
+  }
+
+  .featuressectionfooter {
+    width: auto;
+    gap: 20px;
+    padding: 10px 0px 20px 50px;
   }
 }

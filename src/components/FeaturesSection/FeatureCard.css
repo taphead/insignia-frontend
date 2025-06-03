@@ -11,8 +11,8 @@
 }
 
 .featurecardimage {
-  top: 1923px;
-  left: 416px;
+  /* top: 1923px;
+  left: 416px; */
 }
 
 .featurecardboldtext {
@@ -51,30 +51,44 @@
 
 @media screen and (max-width: 768px) {
   .featurecard {
+    width: auto;
     height: auto;
     margin: 0px;
     gap: 0px;
     padding: 0px;
   }
-  .featurecardimage {
-    width: 80%;
-  }
 
+  .featurecard,
+  .featurecardimage,
   .featurecardboldtext,
   .featurecardmaintext,
-  .featurecardfooter,
-  .featurecardimage {
-    padding: 0px;
+  .featurecardfooter {
     margin: 0px;
+    padding: 0px;
+  }
+
+  .featurecardimage {
+    width: 50%;
+  }
+
+  .featurecardimagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .featurecardboldtext {
     font-size: 16px;
+    padding: 0 20px 0 20px;
   }
+
   .featurecardmaintext {
     font-size: 12px;
+    padding: 0 10px 0 20px;
+    height: auto;
   }
 
   .featurecardfooter {
+    padding: 0 0 10px 20px;
   }
 }
